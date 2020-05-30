@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/* author --> Milan Štiglic */
+
+//People's bubbles
+$pb-image__1: url('../assets/peoples_bubbles/images_1.png');
+$pb-image__2: url('../assets/peoples_bubbles/images_2.png');
+$pb-image__3: url('../assets/peoples_bubbles/images_3.png');
+$pb-image__4: url('../assets/peoples_bubbles/images_4.png');
+$pb-image__5: url('../assets/peoples_bubbles/images_5.png');
+//
+$logo_size__1: url('../assets/logo__paradise_studio.png');
+//
+$bckg_circle: url('../assets/bckg.png');
+//
+$pb-bckg: url('../assets/peoples_bubbles/p_bckg.png');
+//
+//
+//
+//
+@mixin image($img,
+$size) {
+    background-image: $img;
+    background-position: center;
+    background-size: $size;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+@mixin imagePos($img,
+$size,
+$pos) {
+    background-image: $img;
+    background-position: $pos;
+    background-size: $size;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+//
+//
+//

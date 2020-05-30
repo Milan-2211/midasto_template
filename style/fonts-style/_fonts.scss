@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/* author --> Milan Štiglic */
+
+
+/* Avenir */
+
+@font-face {
+    font-family: "Avenir Black";
+    src: url("../fonts/avenir/Avenir - OpenType CFF Std/AvenirLTStd-Black.otf");
+}
+
+@font-face {
+    font-family: "Avenir Heavy";
+    src: url("../fonts/avenir/Avenir - OpenType CFF Std/AvenirLTStd-Heavy.otf");
+}
+
+@font-face {
+    font-family: "Avenir HeavyOblique";
+    src: url("../fonts/avenir/Avenir - OpenType CFF Std/AvenirLTStd-HeavyOblique.otf");
+}
+
+@font-face {
+    font-family: "Avenir Light";
+    src: url("../fonts/avenir/Avenir - OpenType CFF Std/AvenirLTStd-Light.otf");
+}
+
+@font-face {
+    font-family: "Avenir LightOblique";
+    src: url("../fonts/avenir/Avenir - OpenType CFF Std/AvenirLTStd-LightOblique.otf");
+}
+
+@font-face {
+    font-family: "Avenir Oblique";
+    src: url("../fonts/avenir/Avenir - OpenType CFF Std/AvenirLTStd-Obliquek.otf");
+}
+
+@font-face {
+    font-family: "Avenir Roman";
+    src: url("../fonts/avenir/Avenir - OpenType CFF Std/AvenirLTStd-Roman.otf");
+}
+
+$Avenir-Black: "Avenir Black";
+$Avenir-Heavy: "Avenir Heavy";
+$Avenir-HeavyOblique: "Avenir HeavyOblique";
+$Avenir-Light: "Avenir Light";
+$Avenir-LightOblique: "Avenir LightOblique";
+$Avenir-Oblique: "Avenir Oblique";
+$Avenir-Roman: "Avenir-Roman";
+
+/* [ -end- ]  Avenir */
+
+
+/* Brandon */
+
+@font-face {
+    font-family: "Brandon Black";
+    src: url("../fonts/brandon/brandon-grotesque-black-58a8a3e824392.otf");
+}
+
+@font-face {
+    font-family: "Brandon Bold Italic";
+    src: url("../fonts/brandon/brandon-grotesque-bold-italic-58a8a48221563.otf");
+}
+
+@font-face {
+    font-family: "Brandon Light";
+    src: url("../fonts/brandon/brandon-grotesque-light-58a8a4b38001d.otf");
+}
+
+@font-face {
+    font-family: "Brandon Light Italic";
+    src: url("../fonts/brandon/brandon-grotesque-light-italic-58a8a4ccb88be.otf");
+}
+
+@font-face {
+    font-family: "Brandon Medium Italic";
+    src: url("../fonts/brandon/brandon-grotesque-medium-italic-58a8a3c40866a.otf");
+}
+
+@font-face {
+    font-family: "Brandon Regular Italic";
+    src: url("../fonts/brandon/brandon-grotesque-regular-italic-58a8a456c4724.otf");
+}
+
+@font-face {
+    font-family: "Brandon Thin Italic";
+    src: url("../fonts/brandon/brandon-grotesque-thin-italic-58a8a3a8861fe.otf");
+}
+
+$Brandon-Black: "Brandon Black";
+$Brandon-Bold-Italic: "Brandon Bold Italic";
+$Brandon-Light: "Brandon Light";
+$Brandon-Light-Italic: "Brandon Light Italic";
+$Brandon-Medium-Italic: "Brandon Medium Italic";
+$Brandon-Regular-Italic: "Brandon Regular Italic";
+$Brandon-Thin-Italic: "Brandon Thin Italic";
+
+/* [ -end- ] Brandon */

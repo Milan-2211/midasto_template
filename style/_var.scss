@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+/* author --> Milan Štiglic */
+
+//var 
+//
+//basic hue
+//
+$HUE-basic__RED: #f85157;
+$HUE-basic__BLUE:#71d1f5;
+$HUE-basic__ORANGE:#f28358;
+$HUE-light__ORANGE:#ffa988;
+$HUE-basic__PURPLE:#e999f8;
+$HUE-basic-text__GRAY:#777777;
+//
+$boxShadow: 0px 0px 29px 5px;
+$boxShadow-c: rgba(0, 0, 0, 0.2);
+$textShadow:2px 2px 2px;
+$textShadow-c: rgba(0, 0, 0, 0.1);
+@mixin boxShadow($var) {
+    box-shadow: 0px 0px 29px 5px rgba(0, 0, 0, $var);
+}
+
+// [ -end- ] var
